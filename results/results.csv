@@ -1,0 +1,37 @@
+Scenario,Algorithm,Avg_Wait,Avg_Turnaround,Avg_Response,CPU_Util,Fairness_Index
+Scenario A - Mixed Workload,FCFS,53.39,66.06,53.39,100.00,0.6649
+Scenario A - Mixed Workload,SJF,29.50,42.17,29.50,100.00,0.3673
+Scenario A - Mixed Workload,Round Robin (Q=2),56.39,69.06,8.61,100.00,0.4946
+Scenario A - Mixed Workload,Round Robin (Q=4),53.44,66.11,15.06,100.00,0.4675
+Scenario A - Mixed Workload,Round Robin (Q=8),52.22,64.89,21.11,100.00,0.4678
+Scenario A - Mixed Workload,Priority (No Aging),34.22,46.89,34.22,100.00,0.3986
+Scenario A - Mixed Workload,Priority (With Aging),34.50,47.17,34.50,100.00,0.4042
+Scenario A - Mixed Workload,CFS,46.67,61.44,14.11,100.00,0.4346
+Scenario A - Mixed Workload,Lottery Scheduling,40.78,56.06,27.67,100.00,0.4407
+Scenario B - Batch Only,FCFS,113.73,147.00,113.73,100.00,0.7734
+Scenario B - Batch Only,SJF,101.47,134.73,101.47,100.00,0.5894
+Scenario B - Batch Only,Round Robin (Q=2),216.00,249.27,9.07,100.00,0.8819
+Scenario B - Batch Only,Round Robin (Q=4),210.47,243.73,18.13,100.00,0.8746
+Scenario B - Batch Only,Round Robin (Q=8),203.33,236.60,34.73,100.00,0.8578
+Scenario B - Batch Only,Priority (No Aging),117.67,150.93,117.67,100.00,0.6126
+Scenario B - Batch Only,Priority (With Aging),117.67,150.93,117.67,100.00,0.6126
+Scenario B - Batch Only,CFS,237.80,274.13,3.07,100.00,0.8435
+Scenario B - Batch Only,Lottery Scheduling,180.07,217.40,54.07,100.00,0.7175
+Scenario C - RT and Interactive,FCFS,28.00,32.87,28.00,100.00,0.7943
+Scenario C - RT and Interactive,SJF,20.33,25.20,20.33,100.00,0.6865
+Scenario C - RT and Interactive,Round Robin (Q=2),34.27,39.13,11.40,100.00,0.8486
+Scenario C - RT and Interactive,Round Robin (Q=4),32.47,37.33,20.40,100.00,0.7773
+Scenario C - RT and Interactive,Round Robin (Q=8),32.13,37.00,28.53,100.00,0.8429
+Scenario C - RT and Interactive,Priority (No Aging),34.33,39.20,34.33,100.00,0.8122
+Scenario C - RT and Interactive,Priority (With Aging),34.33,39.20,34.33,100.00,0.8122
+Scenario C - RT and Interactive,CFS,32.87,41.00,24.07,100.00,0.8538
+Scenario C - RT and Interactive,Lottery Scheduling,25.73,34.07,29.20,100.00,0.7774
+Scenario D - Balanced,FCFS,69.80,85.10,69.80,100.00,0.6850
+Scenario D - Balanced,SJF,45.00,60.30,45.00,100.00,0.4089
+Scenario D - Balanced,Round Robin (Q=2),88.10,103.40,10.05,100.00,0.5490
+Scenario D - Balanced,Round Robin (Q=4),83.15,98.45,17.25,100.00,0.5248
+Scenario D - Balanced,Round Robin (Q=8),81.00,96.30,27.75,100.00,0.5240
+Scenario D - Balanced,Priority (No Aging),57.30,72.60,57.30,100.00,0.4127
+Scenario D - Balanced,Priority (With Aging),57.30,72.60,57.30,100.00,0.4127
+Scenario D - Balanced,CFS,76.00,93.80,12.65,100.00,0.4701
+Scenario D - Balanced,Lottery Scheduling,69.55,87.90,36.25,100.00,0.4567
